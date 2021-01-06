@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import propertyListings from './data/property-listings.json'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Zidence React</h1>
+      {propertyListings.map((property, index) => {
+        if (property.type === 'House') {
+          return <div>House Component</div>
+        } else if (property.type === 'Apartment') {
+          return <div>Apartment Component</div>
+        } else if (property.type === 'Lot') {
+          return <div>Lot Component</div>
+        } else {
+          return <div>Unknown Component</div>
+        }
+      })}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,41 @@
+[
+  {
+    "type": "House",
+    "name": "Avasta",
+    "lotSize": 100,
+    "liveableArea": 80,
+    "numberOfBedrooms": 3,
+    "numberOfBathrooms": 3,
+    "price": 480000000
+  },
+  {
+    "type": "House",
+    "name": "Vasaka Bali",
+    "lotSize": 350,
+    "liveableArea": 300,
+    "numberOfBedrooms": 4,
+    "numberOfBathrooms": 5,
+    "price": 3500000000
+  },
+  {
+    "type": "Apartment",
+    "name": "Vasaka Nines",
+    "liveableArea": 85,
+    "numberOfBedrooms": 3,
+    "numberOfBathrooms": 3,
+    "price": 1650000000
+  },
+  {
+    "type": "Lot",
+    "name": "Empty Lot",
+    "lotSize": 400,
+    "price": 1200000000
+  },
+  {
+    "name": "Trailer Van",
+    "liveableArea": 35,
+    "numberOfBedrooms": 1,
+    "numberOfBathrooms": 1,
+    "price": 150000000
+  }
+]
